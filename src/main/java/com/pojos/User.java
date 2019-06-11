@@ -4,7 +4,7 @@ public class User {
 	private Integer userId;
 	private String userName;
 	private String emailId;
-	private String mobileNumber;
+	private Integer mobileNumber;
 	private String Address;
 	public Integer getUserId() {
 		return userId;
@@ -23,12 +23,6 @@ public class User {
 	}
 	public void setEmailId(String emailId) {
 		this.emailId = emailId;
-	}
-	public String getMobileNumber() {
-		return mobileNumber;
-	}
-	public void setMobileNumber(String mobileNumber) {
-		this.mobileNumber = mobileNumber;
 	}
 	public String getAddress() {
 		return Address;
