@@ -6,6 +6,14 @@ public class User {
 	private String emailId;
 	private Integer mobileNumber;
 	private String Address;
+	
+	
+	public Integer getMobileNumber() {
+		return mobileNumber;
+	}
+	public void setMobileNumber(Integer mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
 	public Integer getUserId() {
 		return userId;
 	}
